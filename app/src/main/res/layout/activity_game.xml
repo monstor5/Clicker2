@@ -34,20 +34,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.976" /><![CDATA[
 
-    <Button
-
-        android:layout_width="45dp"
-        android:layout_height="168dp"
-        android:text="SHOP"
-        app:backgroundTint="#0FA30A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161" />
     android:id="@+id/button"
     android:layout_width="162dp"
     android:layout_height="123dp"
@@ -56,6 +44,22 @@
     tools:layout_editor_absoluteY="395dp"
     tools:ignore="MissingConstraints" />
 
+
+    ]]>
+
+    <Button
+
+        android:layout_width="45dp"
+        android:layout_height="168dp"
+        android:id="@+id/button2"
+        android:text="SHOP"
+        app:backgroundTint="#0FA30A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
 
     <TextView
         android:id="@+id/countTextView"

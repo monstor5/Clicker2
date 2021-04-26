@@ -20,5 +20,10 @@ class GameActivity : AppCompatActivity() {
             findViewById<TextView>(R.id.countTextView).text = coutmoney.toString()
             coutmoney++
         }
+        findViewById<Button>(R.id.button2).setOnClickListener {
+            var intent = Intent(this, ShopActivity2::class.java)
+            startActivity(intent)
+
+        }
     }
 }
